@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "emitDeclarationOnly": true,
+      "allowUnreachableCode": false, // pick up dead code paths
+      "declaration": true,
+      "experimentalDecorators": true,
+      "lib": [
+        "DOM",
+        "es2020"
+      ],
+      "module": "es2020",
+      "target": "es2020", 
+      "moduleResolution": "node", // Pretty much always node for modern JS. Other option is "classic"
+      "noUnusedLocals": true, // Report errors on unused local variables.
+      "noUnusedParameters": true, // Report errors on unused parameters in functions
+      "jsx": "react",
+      "jsxFactory": "React.createElement",
+      "jsxFragmentFactory": "React.Fragment"
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": [
+      "node_modules"
+    ]
+  }

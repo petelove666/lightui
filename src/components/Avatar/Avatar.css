@@ -1,0 +1,18 @@
+.avatar--xsmall {
+  --avatar-size: 36px;
+}
+
+.avatar--small {
+  --avatar-size: 48px;
+}
+
+.avatar--large {
+  --avatar-size: 72px;
+}
+
+.avatar {
+  width: var(--avatar-size, 60px);
+  height: var(--avatar-size, 60px);
+  border-radius: 50%;
+}
+

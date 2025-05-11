@@ -1,0 +1,38 @@
+@media all and (min-width: 375px) {
+  .user-item {
+    --flexDirection: row;
+    --borderTop: 1px;
+    --borderLeft: 8px;
+  }
+
+  .user-item--medium {
+    --gap: 24px;
+  }
+
+  .user-item--large {
+    --gap: 36px;
+  }
+}
+
+.user-item {
+    display: flex;
+    flex-direction: var(--flexDirection, column);
+    border-style: solid;
+    border-width: var(--borderTop, 8px) 1px 1px var(--borderLeft, 1ssspx);
+}
+
+.user-item--xsmall {
+    padding: 8px;
+    gap: 8px;
+}
+
+.user-item--small {
+    padding: 16px;
+    gap: 16px;
+}
+
+.user-item--medium,
+.user-item--large {
+    padding: var(--gap, 16px);
+    gap: var(--gap, 16px);
+}
