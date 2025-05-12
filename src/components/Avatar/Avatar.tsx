@@ -25,7 +25,6 @@ const Avatar = ({imageUrl, fallbackUrl, altText, size="medium"}: AvatarProps) =>
 
   useEffect(() => {
     setImage(imageUrl || fallbackUrl);
-    console.log("Image URL changed:", imageUrl || fallbackUrl);
   }, [imageUrl, fallbackUrl]);
 
   function handleError() {
