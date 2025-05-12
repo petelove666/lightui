@@ -36,7 +36,7 @@ const UserItem = ({
   }
 
   return (
-    <figure className={`user-item user-item--${size}`}>
+    <figure className={`user-item user-item--${size} text-size--${size}`}>
       <Avatar size={avatarSize[size]} imageUrl={avatarProps.imageUrl || null} fallbackUrl={avatarProps.fallbackUrl} altText={avatarProps.altText} />
       <figcaption>
         <p>{name}</p>

@@ -17,8 +17,11 @@
 .user-item {
     display: flex;
     flex-direction: var(--flexDirection, column);
+    align-items: center;
     border-style: solid;
-    border-width: var(--borderTop, 8px) 1px 1px var(--borderLeft, 1ssspx);
+    border-color: var(--primaryUiColor, #000);
+    border-width: var(--borderTop, 8px) 1px 1px var(--borderLeft, 1px);
+    border-radius: var(--defaultBorderRadius, 0);
 }
 
 .user-item--xsmall {
