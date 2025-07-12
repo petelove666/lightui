@@ -1,6 +1,6 @@
 # React UI components
 
-Collection of React UI components for testing.
+Collection of React UI components for testing
 
 To theme, please import a stylesheet into your app with the following config with values required:
 
